@@ -1,0 +1,14 @@
+Instrucciones para Flask
+Entrar carpeta flask
+Build:
+    docker build -t flask/python:0.1 .
+Run: (El puerto 8080 de salida puede cambiar si esta ya está usado)    
+    docker run -p 8080:5000 -t flask/python:0.1
+	
+Instrucciones para Bottle
+Entrar a carpeta de bottle
+Build:
+    docker build -t bottle/python:0.1 .
+Run: (El puerto 8080 de salida puede cambiar si esta ya está usado)    
+    docker run -p 8080:5000 -t bottle/python:0.1
+	
